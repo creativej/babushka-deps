@@ -1,11 +1,13 @@
 dep 'dev' do
   requires(
-    'essentials',
+    # 'essentials',
     'git setup',
     'vim',
     '2.0.0-p247.rbenv',
     'gems',
-    'nodejs'
+    'nodejs',
+    'common:set.locale',
+    'pg.gem'
   )
 end
 
@@ -16,6 +18,7 @@ dep 'prod' do
     'vim',
     '2.0.0-p247.rbenv',
     'gems',
-    'nodejs'
+    'nodejs',
+    'pg.gem'
   )
 end
